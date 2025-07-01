@@ -5,11 +5,24 @@ user:
 language: "python"
 python_version: "3.10"
 
-commands:
-  build:
-    - "pip install -r requirements.txt"
-  start:
-    - "python3 -m ShrutiMusic"
+build:
+  commands:
+    - apt update && apt install -y curl ffmpeg
+    - curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
+    - apt install -y nodejs
+    - pip install -r requirements.txt
+
+start:
+  command: python3 -m ShrutiMusic
 
 env:
-  - "ENVIRONMENT=production"
+  - ENVIRONMENT=production
+  - API_ID=21218274
+  - API_HASH=3474a18b61897c672d315fb330edb213
+  - BOT_TOKEN=7207574948:AAGRV7Te9gcinmy9hLnPvAOiEzcOYgllDns
+  - OWNER_ID=7576729648
+  - LOG_GROUP_ID=-1002623336438
+  - STRING_SESSION=BQFDw-IAUp8e...
+  - MONGO_DB_URI=mongodb+srv://...
+  - SUPPORT_GROUP=https://t.me/+ZyRZJntl2FU0NTk1
+  - SUPPORT_CHANNEL=https://t.me/Bey_war_updates
