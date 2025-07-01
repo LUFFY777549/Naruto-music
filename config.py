@@ -16,15 +16,15 @@ load_dotenv()
 API_ID = int(os.getenv("API_ID", 21218274))
 API_HASH = os.getenv("API_HASH", "3474a18b61897c672d315fb330edb213")
 BOT_TOKEN = os.getenv("BOT_TOKEN", "7207574948:AAGRV7Te9gcinmy9hLnPvAOiEzcOYgllDns")
-OWNER_ID = int(os.getenv("OWNER_ID", None))
+OWNER_ID = int(os.getenv("OWNER_ID", "7576729648"))
 OWNER_USERNAME = os.getenv("OWNER_USERNAME", "Uzumaki_X_Naruto_6")
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🛠️ Database & Deployment Configs
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-MONGO_DB_URI = os.getenv("MONGO_DB_URI", None)
-LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", None))
+MONGO_DB_URI = os.getenv("MONGO_DB_URI", "mongodb+srv://sufyan532011:5042@auctionbot.5ms20.mongodb.net/?retryWrites=true&w=majority&appName=AuctionBot")
+LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", "-1002623336438"))
 HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = os.getenv("HEROKU_API_KEY")
 
