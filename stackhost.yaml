@@ -9,7 +9,7 @@ commands:
   build:
     - "pip install -r requirements.txt"
   start:
-    - "python3 -m Shrutimusic"
+    - "python3 -m ShrutiMusic"
 
 env:
   - "ENVIRONMENT=production"
