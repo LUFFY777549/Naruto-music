@@ -15,7 +15,7 @@ load_dotenv()
 
 API_ID = int(os.getenv("API_ID", 21218274))
 API_HASH = os.getenv("API_HASH", "3474a18b61897c672d315fb330edb213")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "7207574948:AAGRV7Te9gcinmy9hLnPvAOiEzcOYgllDns")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8106403386:AAGSwhBvzjj1NFFfF13dvtJIEoBRnCw8oCY")
 OWNER_ID = int(os.getenv("OWNER_ID", "7576729648"))
 OWNER_USERNAME = os.getenv("OWNER_USERNAME", "Uzumaki_X_Naruto_6")
 
